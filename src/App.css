@@ -1,0 +1,30 @@
+body{  background-color:#1e3636f6 !important;
+}
+.App {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2%;
+  flex-direction: column;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 34px;
+  padding: 20px 10px;
+  background: rgba(255, 0, 21, 0.897);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  z-index: 2;
+}
+.user-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 2%;
+  margin-top: 20px;
+}
